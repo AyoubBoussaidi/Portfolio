@@ -140,17 +140,20 @@ b, strong {
     vertical-align: top;
     margin-top: 10px;
 	margin-bottom: 10px;
-    width: 400px;
     position: relative;
 }
 
 .animated-item {
 	color: $main-color;
 }
+.custom-w{
+	width: max-content;
+}
 
 .animated-item {
     font-size: 32px;
     line-height: inherit;
+	width: max-content;
     display: block;
     opacity: 0;
     overflow: hidden;
